@@ -7,8 +7,25 @@
     <title>ICCT Colleges Clone</title>
 </head>
 <body>
-  <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+  <!--First bot 
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
   <script src="https://mediafiles.botpress.cloud/c42b7424-8243-4344-bc25-cbfb5172f359/webchat/v2.1/config.js"></script>
+    -->
+
+  <!--Second bot-->
+      <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '66fd234c8a2cba0cbf7848fe' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
 
   <header class="header">
       <div class="container">

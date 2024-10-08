@@ -16,6 +16,9 @@ a {
   margin-right: 25px;
   font-weight: bold;
 }
+a:hover{
+  color: rgb(58, 147, 241);
+}
 li {
   display: inline-block;
   list-style-type: none;

@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ICCT Colleges Clone</title>
-</head>
-<body>
-  <!--First bot 
-    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/c42b7424-8243-4344-bc25-cbfb5172f359/webchat/v2.1/config.js"></script>
-    -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ICCT Colleges - Homepage</title>
 
-  <!--Second bot-->
-      <script type="text/javascript">
+  <!-- Open Sans font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <!-- PT Serif font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Raleway font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="photos/icct.gif">
+</head>
+
+<body>
+  <!-- ai chatbot plugin -->
+  <script type="text/javascript">
     (function(d, t) {
         var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
         v.onload = function() {
@@ -27,59 +39,92 @@
     })(document, 'script');
   </script>
 
-  <header class="header">
-      <div class="container">
-          <div class="logo">
-              <!-- <h1>ICCT Colleges</h1> -->
-            <a href="index.html"><img src="logo-icct-final-01-1.png"></a>
-          </div>
-          <nav class="nav">
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Programs</a></li>
-                  <li><a href="#">Admissions</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-          </nav>
-      </div>
-  </header>
+  <div class="header">
+    <nav class="nav-bar">
+      <a href="index.html"><img class="icct-logo" src="photos/logo-icct-final-01-1.png" alt="ICCT logo"></a>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+          <a href="gallery.html">GALLERY</a>
+          <a href="about.html">ABOUT</a>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-  <section class="hero">
-      <div class="container">
-        <div class="title">  
-        <h2>Welcome to ICCT Colleges!</h2>
-        <p>Your Future Begins Here</p>
-        <br>
-        </div>
-        <button>Learn More</button>
-      </div>
-  </section>
+  <div class="content">
+    <div class="introduction">
+      <h1>WELCOME TO ICCT COLLEGES!</h1>
+      <h3>A Global Pinoy Distinction</h3>
+      <p>ICCT Colleges, is a tertiary education provider with campuses located in the Province of Rizal, Philippines. In Rizal it has campuses in the municipality&#39;s of Cainta, Sumulong (Cainta), San Mateo, Cogeo, Antipolo, Taytay, Binangonan and Angono. Course offerings include Arts & Sciences, Business, Computer, Criminology, Education, Engineering, Health Sciences, Hospitality & Tourism Management, Short Term/Certificate Programs And SENIOR HIGH SCHOOL (Grade 11 & 12).</p>
+      <p>ICCT Colleges exists under the law of the Republic of the Philippines and offers courses that are accredited by Commission on Higher Education (CHED), Technical Education and Skills Development Authority (TESDA), Department of Education (DEPED) and as well as Industry Accredited Certificates.</p>
+      <p>We pride ourselves not just in offering globally competitive programs but in also producing quality graduates ready for the global job market, who are equip with creative thinking tools and technical competences.</p>
+      <p>We invite you to join us as a student, employee or partner and visit our campuses to take part in our endeavor.</p>
+      <hr class="hr-introduction">
+    </div>
 
-  <section class="content">
-      <div class="container">
-          <h3>Our Programs</h3>
-          <div class="programs">
-              <div class="program">
-                  <h4>Undergraduate</h4>
-                  <p>Explore our undergraduate programs to kickstart your career.</p>
-              </div>
-              <div class="program">
-                  <h4>Graduate Studies</h4>
-                  <p>Advance your education with our graduate study programs.</p>
-              </div>
-              <div class="program">
-                  <h4>Short Courses</h4>
-                  <p>Learn new skills and expand your knowledge with our short courses.</p>
-              </div>
-          </div>
-      </div>
-  </section>
+    <h3 class="courses-offered-title">Courses offered in ICCT Colleges</h3>
 
-  <footer class="footer">
-      <div class="container">
-          <p>&copy; 2024 ICCT Colleges. All rights reserved.</p>
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/college-of-health-science/"><img src="courses/CHS.jpg" alt="College of Health Science"></a>
+        <a href="https://icct.edu.ph/course/college-of-health-science/"><p class="course-title">College of Health Science</p></a>
       </div>
-  </footer>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/international-school-of-hotel-tourism-management/"><img src="courses/ISHTM-Tourism.jpg" alt="International School of Hotel Tourism Management"></a>
+        <a href="https://icct.edu.ph/course/international-school-of-hotel-tourism-management/"><p class="course-title">International School of Hotel Tourism Management</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/college-of-teacher-education/"><img src="courses/CoTE.jpg" alt="College of Teacher Education"></a>
+        <a href="https://icct.edu.ph/course/college-of-teacher-education/"><p class="course-title">College of Teacher Education</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/college-of-engineering/"><img src="courses/CoE.jpg" alt="College of Engineering"></a>
+        <a href="https://icct.edu.ph/course/college-of-engineering/"><p class="course-title">College of Engineering</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/college-of-business-accountancy/"><img src="courses/CBA.jpg" alt="College of Business & Accountancy"></a>
+        <a href="https://icct.edu.ph/course/college-of-business-accountancy/"><p class="course-title">College of Business & Accountancy</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/bachelor-of-science-in-industrial-security-management/"><img src="courses/CoCA.jpg" alt="College of Criminology & Administration"></a>
+        <a href="https://icct.edu.ph/course/bachelor-of-science-in-industrial-security-management/"><p class="course-title">College of Criminology & Administration</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/bachelor-of-arts-in-communication/"><img src="courses/CAS.jpg" alt="College of Arts and Science"></a>
+        <a href="https://icct.edu.ph/course/bachelor-of-arts-in-communication/"><p class="course-title">College of Arts and Science</p></a>
+      </div>
+    </div>
+
+    <div class="courses-container">
+      <div class="courses">
+        <a href="https://icct.edu.ph/course/bachelor-of-science-in-computer-science/"><img src="courses/CCS.jpg" alt="College of Computer Studies"></a>
+        <a href="https://icct.edu.ph/course/bachelor-of-science-in-computer-science/"><p class="course-title">College of Computer Studies</p></a>
+      </div>
+    </div>
+    <footer>
+      <img class="footer-logo" src="photos/logo-icct-final-01-1.png">
+      <p>&copy; ICCT Colleges Foundation Inc. &copy; All rights reserved.2024</p>
+    </footer>
+  </div>
 </body>
 </html>

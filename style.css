@@ -127,6 +127,70 @@ li {
 .course-title:hover {
   color: rgb(58, 147, 241);
 }
+/************** campus ***************/
+.campuses-container { 
+  width: 355px;
+  height: 100%;  /*height set's the height of border style: solid; */ 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.171);
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  vertical-align: top;
+  transition: transform 0.3s; 
+}
+.campuses-container:hover {
+  transform: scale(1.1);
+}
+.campus img {
+  width: 355px;
+  height: 252px;
+}
+.campus2 img {
+  width: 260.5px;
+  height: 163.7px;
+}
+.campuses-container2 { 
+  width: 260.5px;
+  height: 100%;  /*height set's the height of border style: solid; */ 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.171);
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-right: 34px;
+  vertical-align: top;
+  transition: transform 0.3s; 
+}
+.campuses-container2:hover {
+  transform: scale(1.1);
+}
+.campus-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Raleway', Arial;
+  font-size: 26px;
+  font-weight: 800;
+}
+.campus-branch {
+  font-size: 16px;
+  font-family: 'Raleway', Arial;
+  color: rgb(1, 7, 31);
+  font-weight: 800;
+  /* border-style: solid; */
+  margin-top: 18px; /*distance of course title in border solid */
+}
+.campus-branch:hover {
+  color: rgb(58, 147, 241);
+}
+.campus-info {
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/**************** footer  ********************/
 footer {
   background-color: rgb(21, 21, 21);
   color: rgb(79, 79, 79);

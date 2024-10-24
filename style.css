@@ -346,3 +346,23 @@ footer {
 .address {
   margin-right: 60px;
 }
+
+/* hover courses */
+.related-courses {
+  display: none; /* Hidden initially */
+  background-color: #fff;
+  position: absolute;
+  padding: 10px;
+  width: 335px;
+  font-size: 16px;
+  font-family: 'Raleway', Arial;
+  color: rgb(1, 7, 31);
+  font-weight: 500;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.course-title:hover + .related-courses {
+  display: block; /* Show when hovering over the text */
+}
+.course-title:hover + .related-courses ul {
+  list-style-type: square;
+}
